@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar o meu <a href="https://github.com/gustavoguanabara/" target="_blank" rel="external">repositório público no GitHub</a>.</p>
+    <p>Você também pode acessar meu <a href="https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ" target="_blank" rel="external">canal gratuito no Youtube</a>.</p>
+    <!--QUANDO FOR USAR ALGUM LINK AONDE NÃO PERTENCE A SUA NAVEGAÇÃO, É INDICADO Q USE O TARGET='_BLANK' PARA ABRIR UMA NOVA GUIA PARA O LINK SELECIONADO-->
+    <!--REL='EXTERNAL' APENAS INDICA PARA O NAVEGADOR QUE O LINK USADO É UM LINK EXTERNO-->
+    <!--TARGET='_BLANK' ABRE UMA NOVA GUIA PARA O LINK USADO-->
+    <h2>Usando links internos</h2>
+    <p>Está é a primeira página do site, se você quiser, pode acessas também a minha <a href="pag002.html" target="_self" rel="next">segunda página</a>.</p>
+    <p>Você também pode acessar nossa <a href="noticias/pag003.html" target="_self" rel="next">página de notícias</a></p>
+    <!-- _SELF - USADO PARA DIZER PARA ABRIR O LINK NA MSM GUIA-->
+    <!-- NEXT - PRÓXIMA PÁGINA-->
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="livro/exercicios-algoritmos.pdf" download="exercicios-algoritmos.pdf" type="application/pdf">Baixar o arquivo em PDF</a></li>
+        <li><a href="livro/exercicios-algoritmos.zip" download="exercicios-algoritmos.zip" type="application/zip">Baixar livro em ZIP</a></li>
+    </ul>
+    <h1>Baixando imagem</h1>
+    <ul>
+        <li><a href="673328.png" download="673328.png" type="image/png">Baixar imagem</a></li>
+    </ul>
+</body>
+</html>

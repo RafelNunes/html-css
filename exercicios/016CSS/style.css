@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    font-family: 'Lobster', cursive;
+}
+body{
+    background-image: linear-gradient(to right, #591C21, #9b2832);
+}
+main{
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 15px black;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    color: #044040;
+    text-shadow: 1px 1px 2px #033838b6;
+}
+h2{
+    color: #591C21;
+}
+p{
+    text-align: justify;
+}
